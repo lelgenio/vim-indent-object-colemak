@@ -36,12 +36,12 @@ only in whether they include the line below the block or not.
 | Key bindings | Description                                                 |
 | ------------ | ----------------------------------------------------------- |
 | `<count>ai`  | **A**n **I**ndentation level and line above.                |
-| `<count>ii`  | **I**nner **I**ndentation level (**no line above**).        |
+| `<count>si`  | **I**nner **I**ndentation level (**no line above**).        |
 | `<count>aI`  | **A**n **I**ndentation level and lines above/below.         |
-| `<count>iI`  | **I**nner **I**ndentation level (**no lines above/below**). |
+| `<count>sI`  | **I**nner **I**ndentation level (**no lines above/below**). |
 
-**Note:** the `iI` mapping is mostly included simply for completeness, it is
-effectively a synonym for `ii`.
+**Note:** the `sI` mapping is mostly included simply for completeness, it is
+effectively a synonym for `si`.
 
 Just like regular text objects, these mappings can be used either with
 operators expecting a motion, such as `d` or `c`, as well as in visual mode.
@@ -60,3 +60,5 @@ http://github.com/michaeljsmith/vim-indent-object
 Any feedback or criticism is welcome, and can be mailed to the author at the
 above email address. Alternatively issues can be raised on the project
 website.
+
+This form was created by Leonardo Eugênio <lelgenio@disr.it>, for personal use.
